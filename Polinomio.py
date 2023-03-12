@@ -169,14 +169,14 @@ print(deprueba3.mostrar())
 deprueba4 = Polinomio.multiplicar(deprueba1, deprueba2)
 print(deprueba4.mostrar())
 
-deprueba5 = Polinomio.restar(deprueba2, deprueba1) # Resta los polinomios p1 y p2
+deprueba5 = Polinomio.restar(deprueba2, deprueba1)
 print(deprueba5.mostrar()) 
 
-deprueba1.eliminar_termino(3) # Elimina el término 7x^3 del polinomio p1
+deprueba1.eliminar_termino(3)
 print(deprueba1.mostrar()) 
 
-print(deprueba1.existe_termino(5)) # Devuelve True si existe el término x^5 en el polinomio p2
-print(deprueba2.existe_termino(3)) # Devuelve False si no existe el término x^3 en el polinomio p2
+print(deprueba1.existe_termino(5))
+print(deprueba2.existe_termino(3))
 
-p6 = Polinomio.dividir(deprueba1, deprueba2) # Divide los polinomios p1 y p2
+p6 = Polinomio.dividir(deprueba1, deprueba2)
 print(p6.mostrar())
